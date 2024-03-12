@@ -1,0 +1,13 @@
+name = "filepath"
+version = "0.2.0"
+
+description = "Work with file paths in Gleam!"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "lpil", repo = "filepath" }
+links = [{ title = "Website", href = "https://gleam.run" }]
+
+[dependencies]
+gleam_stdlib = "~> 0.32"
+
+[dev-dependencies]
+gleeunit = "~> 1.0"

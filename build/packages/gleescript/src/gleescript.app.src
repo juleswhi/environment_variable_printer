@@ -1,0 +1,13 @@
+{application, gleescript, [
+    {vsn, "1.0.0"},
+    {applications, [filepath,
+                    gleam_erlang,
+                    gleam_stdlib,
+                    gleeunit,
+                    simplifile,
+                    snag,
+                    tom]},
+    {description, "Bundle your Gleam-on-Erlang project into an escript, a single executable file!"},
+    {modules, [gleescript]},
+    {registered, []}
+]}.
